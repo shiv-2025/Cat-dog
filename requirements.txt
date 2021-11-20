@@ -3,4 +3,5 @@ pandas==1.0.5
 numpy==1.19.4
 keras
 opencv-python
+opencv-contrib-python
 Pillow
