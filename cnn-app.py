@@ -15,8 +15,11 @@ st.sidebar.header('upload image')
 # Displays the imgae
 st.subheader('Input image')
 
-from keras.models import load_model
-model = load_model('model.h5')
+import tensorflow as tf
+model = tf.keras.models.load_model('model.h5')
+
+#from keras.models import load_model
+#model = load_model('model.h5')
 
 
 uploaded_file = st.sidebar.file_uploader("Upload image here", type= "jpg")
