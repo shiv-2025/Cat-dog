@@ -5,4 +5,3 @@ keras
 opencv-python
 tensorflow
 Pillow
-random
